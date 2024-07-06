@@ -1,0 +1,34 @@
+{
+  "name": "webcrawlerhttp",
+  "version": "1.0.0",
+  "description": "webcrawlerhttp",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node main.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherhanke/webcrawlerhttp.git"
+  },
+  "keywords": [
+    "webcrawler",
+    "http"
+  ],
+  "author": "Christopher Richarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopherhanke/webcrawlerhttp/issues"
+  },
+  "homepage": "https://github.com/christopherhanke/webcrawlerhttp#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
